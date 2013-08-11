@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"  >
+    
+     <View 
+
+		    android:layout_width="fill_parent"
+		    android:layout_height="2dp"
+		    android:layout_gravity="left|top"
+		    android:gravity="left|top"
+		    android:background="#524456"
+	/> 
+    
+
+    
+    
+      <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo_sport"
+        android:background="@drawable/drawable_logo" />
+
+	
+       <TextView
+		    android:id="@+id/textViewTynsport"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:gravity="center"
+		    android:text="Tynsport"
+		    android:textColor="#527bb5"
+		    android:textSize="50sp"
+		    android:shadowColor="#AFD1D1D3"  
+	        android:shadowRadius="1.5"  
+	        android:shadowDx="3"  
+	        android:shadowDy="1" />
+       
+
+    
+    <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical" >
+    
+    
+    <Button
+        android:id="@+id/buttonSignIN"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_button_login"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="Sign In" 
+        android:onClick="signIn"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/buttonSignUP"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/drawable_button_login"
+        android:textColor="@color/white"
+        android:text="Sign Up" />
+    
+	</LinearLayout>
+</LinearLayout>

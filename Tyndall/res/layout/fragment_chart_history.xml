@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  
+      <LinearLayout 
+        android:id="@+id/llHistory"
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:orientation="vertical" 
+           >
+	    <com.androidplot.xy.XYPlot            
+				android:id="@+id/dynamicPlotHistoryX"            
+				android:layout_width="310dp"            
+				android:layout_height="100dp"  
+				androidplot.titleSize="15dp"  
+				androidplot.title="PSD X Accelerometer"
+		/>
+	
+		 <com.androidplot.xy.XYPlot            
+				android:id="@+id/dynamicPlotHistoryY"            
+				android:layout_width="310dp"            
+				android:layout_height="100dp"    
+				androidplot.title="PSD Y Accelerometer"
+		/> 
+		 <com.androidplot.xy.XYPlot            
+				android:id="@+id/dynamicPlotHistoryZ"            
+				android:layout_width="310dp"            
+				android:layout_height="100dp"    
+				androidplot.title="PSD Z Accelerometer"
+		/> 
+		
+	   
+	</LinearLayout>
+
+</LinearLayout>

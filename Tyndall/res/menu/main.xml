@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+      <item 
+       android:id="@+id/Music" 
+       android:title="Music"
+       android:icon="@drawable/ic_music"
+       android:showAsAction="ifRoom"  /> 
+       
+      <item
+        android:id="@+id/root_menu"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_overflow">
+      
+        
+    <menu>
+    <item 
+       android:id="@+id/connect" 
+       android:title="Connect" 
+       android:icon="@drawable/ic_eye_on"/>
+    <item 
+       android:id="@+id/Hotspot" 
+       android:title="Hotspot"
+       android:icon="@drawable/ic_network_wifi" />   
+    <item
+        android:id="@+id/action_settings"
+        android:showAsAction="never"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/action_settings"/>
+   <item 
+       android:id="@+id/resetDatabase" 
+       android:icon="@drawable/ic_cut"
+       android:title="Reset Database" />
+   
+  
+     <item 
+      android:id="@+id/disconnect" 
+      android:icon="@drawable/ic_remove"
+      android:orderInCategory="100"
+      android:title="Quit"/>
+    <!--<item 
+        android:id="@+id/other" 
+        android:title="Other" 
+        android:enabled="false"/>
+        
+        -->
+        </menu>
+        </item>
+
+</menu>
